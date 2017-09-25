@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OA系统</title>
+   		<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		.user-img{width: 40px;height: 40px;margin-top: 5px;}
+		.lan{color: #7dacd4;}
+		.list-group-item > .badge{float: none;}
+		.wh64{width: 64px;height: 64px;}
+	</style>
+  </head>
+  <body>
+  <nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		      <span class="sr-only">Toggle navigation</span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		    </button>
+			    <a class="navbar-brand" href="#">OA办公系统</a>
+			</div>
+			
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav">
+			      <li ><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;管理首页</a></li>
+			      <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+			      <li><a href="content1.html"><span class="glyphicon glyphicon-check"></span>&nbsp;&nbsp;内容管理</a></li>
+			      <li><a href="Label.html"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+			      <li><a href="mailbox.html"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;我的邮箱</a></li>
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			      <li><img src="images/touxiang.jpg" class="img-responsive user-img"/></li>
+			      <li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">管理员 <b class="caret"></b></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+			        </ul>
+			      </li>
+			    </ul>
+			</div><!-- /.navbar-collapse -->
+		  	
+		</div>
+	  
+	</nav>
+	<div class="container">
+		<div class="col-md-2">
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#">用户管理</a></li>
+			  <li><a href="user-list2.html">用户搜索</a></li>
+			  <li><a href="#">添加用户</a></li>
+			</ul>
+		</div>
+		<div class="col-md-10">
+			<ul class="nav nav-tabs">
+			  <li class="active"><a href="#">用户列表</a></li>
+			  <li><a href="user-list2.html">用户搜索</a></li>
+			  <li><a href="#">添加用户</a></li>
+			</ul>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>用户名</th>
+						<th>邮箱</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+						<tr>
+							<td>2</td>
+							<td>路飞</td>
+							<td>123456@qq.com</td>
+							<td>
+								<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    操作 <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Action</a></li>
+								    <li><a href="#">Another action</a></li>
+								    <li><a href="#">Something else here</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li><a href="#">Separated link</a></li>
+								  </ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>路飞</td>
+							<td>123456@qq.com</td>
+							<td>
+								<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    操作 <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Action</a></li>
+								    <li><a href="#">Another action</a></li>
+								    <li><a href="#">Something else here</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li><a href="#">Separated link</a></li>
+								  </ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>路飞</td>
+							<td>123456@qq.com</td>
+							<td>
+								<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    操作 <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Action</a></li>
+								    <li><a href="#">Another action</a></li>
+								    <li><a href="#">Something else here</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li><a href="#">Separated link</a></li>
+								  </ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>路飞</td>
+							<td>123456@qq.com</td>
+							<td>
+								<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    操作 <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Action</a></li>
+								    <li><a href="#">Another action</a></li>
+								    <li><a href="#">Something else here</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li><a href="#">Separated link</a></li>
+								  </ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>路飞</td>
+							<td>123456@qq.com</td>
+							<td>
+								<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    操作 <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Action</a></li>
+								    <li><a href="#">Another action</a></li>
+								    <li><a href="#">Something else here</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li><a href="#">Separated link</a></li>
+								  </ul>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>路飞</td>
+							<td>123456@qq.com</td>
+							<td>
+								<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								    操作 <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Action</a></li>
+								    <li><a href="#">Another action</a></li>
+								    <li><a href="#">Something else here</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li><a href="#">Separated link</a></li>
+								  </ul>
+								</div>
+							</td>
+						</tr>
+
+				</tbody>
+			</table>
+			<nav aria-label="...">
+			  <ul class="pagination pull-right">
+			    <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+			    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+			    <li><a href="#">1 <span class="sr-only">(current)</span></a></li>
+			    <li><a href="#">2 <span class="sr-only">(current)</span></a></li>
+			    <li><a href="#">3 <span class="sr-only">(current)</span></a></li>
+			    <li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+			    <li><a href="#">5 <span class="sr-only">(current)</span></a></li>
+			    <li><a href="#">6 <span class="sr-only">(current)</span></a></li>
+			    <li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+			  </ul>
+			</nav>
+		</div>
+
+		<div class="col-md-12">
+			<p class="text-center">联系方式：123123123</p>
+		</div>
+	</div>
+  	
+  	
+  	
+    <script src="js/jquery-3.1.0.min.js"></script>  
+    <script src="js/bootstrap.js"></script>
+    <script src="js/Chart.js"></script>
+    <script src="js/script.js"></script>
+   	<script>
+   		
+   	</script>
+  </body>
+</html>

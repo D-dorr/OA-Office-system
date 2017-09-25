@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OA系统</title>
+   		<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+		.user-img{width: 40px;height: 40px;margin-top: 5px;}
+		.txt{width: 93%;}
+		.biaoqian{width: 10%;margin-top: 10px;margin-right: 10px;}
+		/*.use{border: 1px solid #CCCCCC;border-radius:5px ;}*/
+	</style>
+  </head>
+  <body>
+  <nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		      <span class="sr-only">Toggle navigation</span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		    </button>
+			    <a class="navbar-brand" href="#">OA办公系统</a>
+			</div>
+			
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav">
+			      <li ><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;管理首页</a></li>
+			      <li ><a href="user-list1.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+			      <li ><a href="content1.html"><span class="glyphicon glyphicon-check"></span>&nbsp;&nbsp;内容管理</a></li>
+			      <li class="active"><a href="#"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+			      <li><a href="mailbox.html"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;我的邮箱</a></li>
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			      <li><img src="images/touxiang.jpg" class="img-responsive user-img"/></li>
+			      <li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">管理员 <b class="caret"></b></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+			          <li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+			        </ul>
+			      </li>
+			    </ul>
+			</div><!-- /.navbar-collapse -->
+		  	
+		</div>
+	 </nav>
+
+
+		<div class="container">
+			
+
+					<p class="h4">TAG标签管理</p>
+					<hr />
+					<form role="form" class="clearfix">
+					  <div class="form-group">
+					    <input type="text" class="form-control pull-left txt" placeholder="请输入要添加的标签">
+					    <button type="button" class="btn btn-default pull-right ">提交</button>
+					  </div>
+					 </form>
+					 <div class="alert alert-success alert-dismissible biaoqian pull-left" role="alert">
+					  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					  <strong>bootstrap</strong>
+					</div>
+					<div class="alert alert-info alert-dismissible biaoqian pull-left" role="alert">
+					  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					  <strong>JavaScript</strong>
+					</div>
+					<div class="alert alert-warning alert-dismissible biaoqian pull-left" role="alert">
+					  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					  <strong>前端课程</strong>
+					</div>
+					<div class="col-md-12">
+						<p class="text-center">联系方式：123123123</p>
+					</div>
+
+			
+		</div>
+		
+
+  	
+  	
+  	
+    <script src="js/jquery-3.1.0.min.js"></script>  
+    <script src="js/bootstrap.js"></script>
+    <script src="js/Chart.js"></script>
+    <script src="js/script.js"></script>
+   	<script>
+
+   	</script>
+  </body>
+</html>
